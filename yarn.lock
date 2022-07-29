@@ -7883,7 +7883,7 @@ __metadata:
     nuxt-windicss: "npm:2.5.0"
     pinia: "npm:^2.0.14"
     typescript: "npm:4.7.4"
-    vite: "npm:2.9.14"
+    vite: "npm:3.0.4"
     vue: "npm:3.2.37"
   languageName: unknown
   linkType: soft
@@ -11171,19 +11171,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:2.9.14, vite@npm:^2.9.14":
-  version: 2.9.14
-  resolution: "vite@npm:2.9.14"
+"vite@npm:3.0.4":
+  version: 3.0.4
+  resolution: "vite@npm:3.0.4"
   dependencies:
-    esbuild: "npm:^0.14.27"
+    esbuild: "npm:^0.14.47"
     fsevents: "npm:~2.3.2"
-    postcss: "npm:^8.4.13"
-    resolve: "npm:^1.22.0"
-    rollup: "npm:^2.59.0"
+    postcss: "npm:^8.4.14"
+    resolve: "npm:^1.22.1"
+    rollup: "npm:^2.75.6"
   peerDependencies:
     less: "*"
     sass: "*"
     stylus: "*"
+    terser: ^5.4.0
   dependenciesMeta:
     fsevents:
       optional: true
@@ -11194,9 +11195,11 @@ __metadata:
       optional: true
     stylus:
       optional: true
+    terser:
+      optional: true
   bin:
     vite: bin/vite.js
-  checksum: 7e333851681ac58e9b510b6eed95ba293e7e08b28e95aa7c2a4d5c8e65e01f9dfc4c39c24496dcd39a949cc82a13cfe13b9065ce84418090e20dbdce08c5a741
+  checksum: 65535d8402011fee6edf89944fb1fdaa77275d71f87bc8d76a285ccf40badbbfba649c10cad31305de29b41c82641410ad8a835a1b39e2d0440efdd54912a81c
   languageName: node
   linkType: hard
 
@@ -11258,6 +11261,35 @@ __metadata:
   bin:
     vite: bin/vite.js
   checksum: eea19ba4a17879dc122ff324867f85197824d55e0c14068a7ea9b2ba621ed17c4e3368fea5bb20dbb42e9dc242a29ae3cc9829e1aceadd1682decc33a024e73c
+  languageName: node
+  linkType: hard
+
+"vite@npm:^2.9.14":
+  version: 2.9.14
+  resolution: "vite@npm:2.9.14"
+  dependencies:
+    esbuild: "npm:^0.14.27"
+    fsevents: "npm:~2.3.2"
+    postcss: "npm:^8.4.13"
+    resolve: "npm:^1.22.0"
+    rollup: "npm:^2.59.0"
+  peerDependencies:
+    less: "*"
+    sass: "*"
+    stylus: "*"
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    less:
+      optional: true
+    sass:
+      optional: true
+    stylus:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: 7e333851681ac58e9b510b6eed95ba293e7e08b28e95aa7c2a4d5c8e65e01f9dfc4c39c24496dcd39a949cc82a13cfe13b9065ce84418090e20dbdce08c5a741
   languageName: node
   linkType: hard
 
